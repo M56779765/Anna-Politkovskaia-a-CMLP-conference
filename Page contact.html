@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contact - Center for Media Liberty and Press</title>
+    
+</head>
+
+<body>
+    <div class="contact-info">
+        <p>Contact@centerformedialibertyandpress.com</p>
+    </div>
+    <header>
+        <img src="logo.jpg" alt="Logo" style="width: 130px; height: auto;">
+        <h1>Center for Media Liberty and Press</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li class="deroulant">
+                    <a href="#">La Russie &ensp;</a>
+                    <ul class="sous">
+                        <li><a href="Pager informations générales.html">Informations générales</a></li>
+                        <li><a href="Page contexte historique russe.html">Contexte historique russe</a></li>
+                        <li><a href="Page guerres de Tchétchénie.html">Les guerres de Tchétchénie</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant">
+                    <a href="#">Anna Politkovskaïa &ensp;</a>
+                    <ul class="sous">
+                        <li><a href="Pagre son histoire.html">Son histoire</a></li>
+                        <li><a href="Page ses actions.html">Ses actions</a></li>
+                        <li><a href="page ses impacts.html">Ses impacts</a></li>
+                    </ul>
+                </li>
+                <li><a href="Page contact.html">Contact</a></li>
+                <li><a href="Page à propos.html">À propos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contactez-nous!</h2>
+        <section id="contact-form">
+            <h2>Formulaire de contact</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Adresse email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="1" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        
+        </section>
+    </main>
+</body>
+
+</html>
